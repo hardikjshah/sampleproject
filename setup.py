@@ -109,6 +109,7 @@ setup(
     entry_points={
         'console_scripts': [
             'sample=sample:main',
+            'sample-yo=sample.yo:yo',
         ],
     },
 )
